@@ -1,4 +1,4 @@
-# Consume-Complaints
+# Consumer-Complaints
 In this project I have analyzed consumer complaints on which products and companies are the customers unhappy with and also products which are doing good.
 
 ### To merge data and converting csv file to db(database) file and read from db file
@@ -37,3 +37,5 @@ query1 = pd.read_sql_query('SELECT ProductName, Company, COUNT(*) as `Complaints
 sns.barplot(y=query1.ProductName[0:9], x=query1.Complaints[0:9])
 ```
 <img src="https://github.com/Sidharth1998/Consumer_Complaints/blob/master/plot1.png" width="500" height="300">
+
+### Complete project can be seen in the Ipython notebook uploaded above.
