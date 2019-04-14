@@ -36,4 +36,4 @@ query1 = pd.read_sql_query('SELECT ProductName, Company, COUNT(*) as `Complaints
                          'ORDER BY `Complaints` DESC', db_conn)
 sns.barplot(y=query1.ProductName[0:9], x=query1.Complaints[0:9])
 ```
-<img src="https://github.com/Sidharth1998/Facial-Key-Points-Detection/blob/master/images/sunglasses_overlay.png?raw=true" width="300" height="300">
+<img src="https://github.com/Sidharth1998/Consumer_Complaints/blob/master/plot1.png" width="300" height="300">
